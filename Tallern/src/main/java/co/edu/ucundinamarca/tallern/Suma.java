@@ -6,6 +6,8 @@
 
 package co.edu.ucundinamarca.tallern;
 
+import java.util.Scanner;
+
 /**
  *
  * @author AsusTek
@@ -13,7 +15,7 @@ package co.edu.ucundinamarca.tallern;
 public class Suma {
 public static void main(String[] args) {
         
-        int x = 0,y = 0,z = 0;
+       int x = 0,y = 0,z = 0;
         Scanner teclado=new Scanner(System.in);
         operacion ob1 = new operacion(x,y,z);
         System.out.println("Digite un numero: ");
@@ -22,6 +24,7 @@ public static void main(String[] args) {
         y = teclado.nextInt();
         ob1.setSum1(x);
         ob1.setSum2(y);
-        System.out.println("La suma es: "+ob1.getRes());
+      System.out.println("La suma es: "+ob1.getRes());
     }
 }
+

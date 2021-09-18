@@ -14,24 +14,26 @@ public class Main {
 
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-     int fac;
-    log.debug("Digite un numero: ");
-     fac = sc.nextInt();
-     Main objeto1 = new Main();
-     objeto1.factorial(fac);
-    log.info("El factorial del numero es: "+objeto1.factorial(fac));
-    
+     int num;
+     log.debug("Digite un numero: ");
+     num = sc.nextInt();
+     log.info("El factorial del numero "+num+" es: "+factorial(num));
+   
     }
 
-    int factorial(int num){ 
-     int resultado = 0;
-     
-     for(int i =num; i<1; i--){
-     resultado=num*i;
+    public static int factorial(int num){ 
+     int factorial=1;
+     if(num<=0){
+     log.info("Error el valor ingresado es nulo");
+     }else{
+     while(num>1){
+    
+     factorial=factorial*num;
+     num--;
+      }
      
      }
-     
-    return resultado;
+     return factorial;  
     }
-    
 }
+

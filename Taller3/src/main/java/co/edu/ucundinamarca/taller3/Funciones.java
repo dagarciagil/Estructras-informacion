@@ -1,8 +1,8 @@
 
-package co.edu.ucundinamarca.tallern;
+package co.edu.ucundinamarca.taller3;
 
-import static co.edu.ucundinamarca.tallern.Main.factorial;
-import static co.edu.ucundinamarca.tallern.apartado3_potencia.potenciaConRecursion;
+import static co.edu.ucundinamarca.taller3.Main.factorial;
+import static co.edu.ucundinamarca.taller3.apartado3_potencia.potenciaConRecursion;
 import java.util.Scanner;
 import org.apache.log4j.Logger;
 

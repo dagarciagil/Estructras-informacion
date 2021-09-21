@@ -6,7 +6,6 @@ y continúa desde allí.
                               MCD: APARTADO 1
 Apartado 1, el programa presenta un recursion infinita, por lo cual no compila
                               APARTADO 2
-
 le falta de terminar si un valor es igual a cero ya que el entero mas grande que puede dvidir
 uniformente a A es A, por lo tanto siempre que el valor de B sea mayor a cero va a seguir, esta 
 parte era la que la hacia falta al programa para que no se quedara en una recursion infinita

@@ -1,7 +1,7 @@
 
-package co.edu.ucundinamarca.tallern;
+package co.edu.ucundinamarca.taller3;
 
-import static co.edu.ucundinamarca.tallern.Main.log;
+import static co.edu.ucundinamarca.taller3.Main.log;
 import java.util.Scanner;
 
 

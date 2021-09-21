@@ -1,5 +1,5 @@
 
-package co.edu.ucundinamarca.tallern;
+package co.edu.ucundinamarca.taller3;
 
 import java.util.Scanner;
 import org.apache.log4j.Logger;
